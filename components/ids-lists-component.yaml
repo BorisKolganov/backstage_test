@@ -13,4 +13,3 @@ spec:
   lifecycle: production
   owner: KYC
   system: IDS-API
-  dependsOn: [ids-lists, ids-smev]
