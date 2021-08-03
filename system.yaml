@@ -6,3 +6,4 @@ metadata:
 spec:
   targets:
     - ./systems/ids-api-system.yaml
+    - ./systems/cdp-system.yaml
