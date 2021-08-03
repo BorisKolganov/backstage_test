@@ -13,7 +13,7 @@ spec:
   lifecycle: production
   owner: KYC
   system: IDS-API
-  dependsOn: ['component:ids-lists', 'component:ids-smev']
+  dependsOn: ['Component:ids-lists', 'Component:ids-smev']
 
 #  providesApis:
 #    - petstore
