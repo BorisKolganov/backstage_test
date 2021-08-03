@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: CDP2
+  name: another-CDP
   # This is an extra long description
   description: Точка входа в ids системы
   links:
