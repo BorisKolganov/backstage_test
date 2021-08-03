@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: CDP
+  description: Everything related to cdp
+  tags:
+    - cdp
+spec:
+  owner: KYC
+  domain: Data
