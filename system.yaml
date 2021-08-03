@@ -5,5 +5,5 @@ metadata:
   description: A collection of all ids systems
 spec:
   targets:
-    - ./systems/ids-api-system.yaml
     - ./systems/cdp-system.yaml
+    - ./systems/ids-api-system.yaml
