@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: IDS-API
+  # This is an extra long description
+  description: Точка входа в ids системы
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: KYC
+  system: IDS-API
+  dependsOn: [ids-lists, ids-smev]
+
+#  providesApis:
+#    - petstore
+#    - streetlights
+#    - hello-world
