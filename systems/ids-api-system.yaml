@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: IDS::API
-  description: Everything related to artists
+  name: IDS-API
+  description: Everything related to ids
   tags:
     - ids
     - sui
