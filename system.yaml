@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: IPT Systems
+  description: A collection of all ids systems
+spec:
+  targets:
+    - ./systems/ids-api-system.yaml

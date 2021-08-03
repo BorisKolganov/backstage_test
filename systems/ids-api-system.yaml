@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: IDS::API
+  description: Everything related to artists
+  tags:
+    - ids
+    - sui
+spec:
+  owner: KYC
+  domain: Data
