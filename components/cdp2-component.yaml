@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CDP2
+  # This is an extra long description
+  description: Точка входа в ids системы
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: KYC
+  system: CDP
+#  dependsOn: ['system:IDS-API']
+
+#  providesApis:
+#    - petstore
+#    - streetlights
+#    - hello-world

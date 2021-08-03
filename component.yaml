@@ -6,6 +6,7 @@ metadata:
 spec:
   targets:
     - ./components/cdp-component.yaml
+    - ./components/cdp2-component.yaml
     - ./components/ids-api-component.yaml
     - ./components/ids-lists-component.yaml
     - ./components/ids-smev-component.yaml
