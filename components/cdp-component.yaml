@@ -13,7 +13,7 @@ spec:
   lifecycle: production
   owner: KYC
   system: CDP
-#  dependsOn: ['system:IDS-API']
+  dependsOn: ['system:IDS-API']
 
 #  providesApis:
 #    - petstore
